@@ -138,6 +138,49 @@
       </div>
     </section>
 
+        <!-- Contact -->
+    <section id="contact" class="section container" aria-label="Contact">
+      <h3 class="title">Contact</h3>
+      <p class="subtitle">Kirim pesan singkat — ini hanya frontend (tidak ada backend).</p>
+      <div class="contact-grid">
+        <div class="contact-form">
+          <label>
+            <div style="font-weight:600; margin-bottom:6px;">Name</div>
+            <input class="input" id="cName" placeholder="Nama lengkap">
+          </label>
+          <label>
+            <div style="font-weight:600; margin-bottom:6px;">Email</div>
+            <input class="input" id="cEmail" placeholder="email@contoh.com" type="email">
+          </label>
+          <label>
+            <div style="font-weight:600; margin-bottom:6px;">Message</div>
+            <textarea id="cMessage" rows="6" class="input" placeholder="Tuliskan pesan..."></textarea>
+          </label>
+          <div style="display:flex; gap:10px;">
+            <button class="btn" id="sendBtn" type="button">Kirim</button>
+            <button class="btn secondary" id="clearBtn" type="button">Bersihkan</button>
+          </div>
+          <div id="contactNotice" style="color:var(--muted); margin-top:10px; font-size:0.9rem;"></div>
+        </div>
+
+        <div class="card" style="min-height:200px;">
+          <h4 style="margin-top:0;">Info</h4>
+          <p style="color:var(--muted); margin-top:6px;">Alamat email dan detail kontak lainnya dapat Anda tambahkan di sini.</p>
+          <hr style="border:none; height:1px; background:rgba(255,255,255,0.03); margin:12px 0;">
+          <div style="color:var(--muted); font-size:0.95rem;">
+            <strong>Location</strong>
+            <div>Jakarta, Indonesia</div>
+            <div style="margin-top:8px;"><strong>Email</strong><div>hello@mylanding.test</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="container footer">
+    <div>© <span id="year"></span> MF Landing Page</div>
+  </footer>
 
     <script src="script.js"></script>
 </body>
